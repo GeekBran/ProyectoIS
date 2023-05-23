@@ -102,7 +102,7 @@ a:hover {
 
 .nav-content-logo1 {
     grid-area: logo;
-    background-image: url("imagenes/Logobb.png");
+    background-image: url("imagenes/logo2.png");
     padding: 3px;
     justify-content: flex-start;
     background-repeat: no-repeat;
