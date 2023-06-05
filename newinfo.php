@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Vivel</title>
+    <link href="imagenes/Icono.png" type="image/x-icon" rel="shortcut icon" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="newww">
+     <img class="img-viv" src="imagenes/Icono.png" alt="">
+    <section class="act-info">
+    <form method="post" class="Changes">
+       <div class="act-sub"><h2>Nuevo Articulo</h2></div>
+       <div class="act-tit11"><input type="text" name="titulo" placeholder="Titulo"></div>
+      <div class="act-cuerpo"><input type="url" name="imagen" placeholder="Imagen"></div>
+     <div class="act-cuerpo"><input type="text" name="cuerpo" placeholder="Texto"></div>
+     <div class="act-aut"><input type="text" name="autor" placeholder="Autor"></div>
+  <div class="act-enviar"><input type="submit" name="registroArticulo" value="Hecho"></div>
+  </form>
+  <?php
+  include('regArticulo.php')
+  ?>
+</section>
+<section class="act-info">
+    <form method="post" class="Changes">
+       <div class="act-sub"><h2>Modificar Curso</h2></div>
+       <div class="act-tit11"><input type="number" name="id" placeholder="Numero de curso"></div>
+       <div class="act-tit11"><input type="text" name="titulo" placeholder="Titulo"></div>
+      <div class="act-cuerpo"><input type="url" name="imagen" placeholder="Imagen"></div>
+     <div class="act-cuerpo"><input type="text" name="cuerpo" placeholder="Texto"></div>
+  <div class="act-enviar"><input type="submit" name="registroArticulo" value="Hecho"></div>
+  </form>
+  <?php
+  include('regCurso.php')
+  ?>
+</section>
+</body>
+</html>
